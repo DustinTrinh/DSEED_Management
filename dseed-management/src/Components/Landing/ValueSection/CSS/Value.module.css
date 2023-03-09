@@ -1,0 +1,22 @@
+.cardHorizontal {
+    flex-direction: row;
+    width: 100% !important;
+    flex: 1 1 auto;
+    height: 100%;
+}
+
+.cardImg{
+    width: 40%;
+}
+
+.header h1{
+    text-align: center;
+}
+
+.cardHeight{
+    height: 100%;
+}
+
+.valueDiv{
+    padding-bottom: 80px;
+}

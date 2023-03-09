@@ -1,0 +1,21 @@
+.cardLayout {
+    flex-direction: row;
+    width: 100% !important;
+    margin-bottom: 40px;
+}
+
+.cardLayout img {
+    width: 10% !important;
+}
+
+@media only screen and (max-width: 500px) {
+    .cardLayout {
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    .cardLayout img {
+        width: 100% !important;
+    }
+    
+}

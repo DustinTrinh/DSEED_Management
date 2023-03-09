@@ -1,0 +1,11 @@
+.headerBar{
+    width: 100%;
+}
+
+.headerBar .title{
+    text-align: center;
+}
+
+.clickedTab{
+    background-color: red !important;
+}

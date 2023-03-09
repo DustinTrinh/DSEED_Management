@@ -1,0 +1,46 @@
+.cardLayout {
+    flex-direction: row;
+    width: 100% !important;
+}
+
+.cardLayout img {
+    width: 10% !important;
+}
+
+.btn {
+    text-transform: unset !important;
+}
+.giftSvg{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.giftSvg img{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .cardLayout {
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    .cardLayout img {
+        width: 100% !important;
+    }
+}
+
+.currentPoint{
+    text-align: center;
+}
+
+.countUp{
+    font-size: 60px;
+    height: 100%;
+    padding: 70px 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

@@ -1,14 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "./Components/Global/CSS/Global.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter, BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Landing from "./Components/Landing/LandingSection/JS/Landing";
+import LoginRegistration from "./Components/Auth/JS/LoginRegistration";
+import Dashboard from "./Components/Dashboard/JS/Dashboard";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <React.StrictMode>
+        <BrowserRouter>
+            <Routes>
+                <Route exact path="/" element={<Landing/>} />
+                <Route path="/LoginRegistration" element={<LoginRegistration/>} />
+                <Route path="/Dashboard" element={<Dashboard/>} />
+            </Routes>
+            <App />
+        </BrowserRouter>
+        
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

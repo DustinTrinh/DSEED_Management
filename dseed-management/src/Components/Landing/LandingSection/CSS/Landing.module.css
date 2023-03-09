@@ -1,0 +1,12 @@
+.overview{
+    width: 50%;
+    text-align: center;
+}
+
+.overview h1{
+    padding-bottom: 20px;
+}
+
+.overview h5{
+    font-style: italic;
+}

@@ -1,0 +1,16 @@
+.nav{
+    background-color: transparent;
+}
+
+.nav.active{
+    background-color: #000000;
+}
+
+.nav.active a{
+    color: #ffffff !important; 
+}
+
+.ecoBrand{
+    font-weight: bold;
+}
+
